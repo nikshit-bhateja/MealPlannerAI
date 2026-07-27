@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fraunces_72pt_Soft-Black.ttf</string>
+		<string>Fraunces_72pt_Soft-Bold.ttf</string>
+		<string>Fraunces_72pt_Soft-Light.ttf</string>
+		<string>Fraunces_72pt_Soft-Regular.ttf</string>
+		<string>Fraunces_72pt_Soft-SemiBold.ttf</string>
+		<string>Fraunces_72pt_SuperSoft-Bold.ttf</string>
+		<string>Fraunces_72pt_SuperSoft-Light.ttf</string>
+		<string>Fraunces_72pt_SuperSoft-Regular.ttf</string>
+		<string>Fraunces_72pt-Bold.ttf</string>
+		<string>Fraunces_72pt-Black.ttf</string>
+		<string>Fraunces_72pt-Light.ttf</string>
+		<string>Fraunces_72pt-Regular.ttf</string>
+		<string>Fraunces_72pt-SemiBold.ttf</string>
+		<string>PlusJakartaSans-Bold.ttf</string>
+		<string>PlusJakartaSans-BoldItalic.ttf</string>
+		<string>PlusJakartaSans-ExtraBold.ttf</string>
+		<string>PlusJakartaSans-ExtraBoldItalic.ttf</string>
+		<string>PlusJakartaSans-ExtraLight.ttf</string>
+		<string>PlusJakartaSans-ExtraLightItalic.ttf</string>
+		<string>PlusJakartaSans-Italic.ttf</string>
+		<string>PlusJakartaSans-Light.ttf</string>
+		<string>PlusJakartaSans-LightItalic.ttf</string>
+		<string>PlusJakartaSans-Medium.ttf</string>
+		<string>PlusJakartaSans-MediumItalic.ttf</string>
+		<string>PlusJakartaSans-Regular.ttf</string>
+		<string>PlusJakartaSans-SemiBold.ttf</string>
+		<string>PlusJakartaSans-SemiBoldItalic.ttf</string>
+	</array>
+</dict>
+</plist>
