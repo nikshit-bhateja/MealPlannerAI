@@ -9,10 +9,10 @@ internal import Combine
 import SwiftUI
 
 class AppRouter: NSObject, ObservableObject {
-    @Published var path:[Routes] = []
+    @Published var path:[AppRoutes] = []
     
     // Push a new screen
-    func push(_ route: Routes, animated: Bool = true) {
+    func push(_ route: AppRoutes, animated: Bool = true) {
         
         if animated {
             path.append(route)
@@ -41,7 +41,7 @@ class AppRouter: NSObject, ObservableObject {
         
     }
     // Pop back to a specific screen
-    func popTo(_ route: Routes) {
+    func popTo(_ route: AppRoutes) {
         if let index = path.firstIndex(of: route) {
             path = Array(path.prefix(through: index))
         }
@@ -60,7 +60,7 @@ class AppRouter: NSObject, ObservableObject {
     }
     
     // Set a new root screen
-    func setRoot(_ route: Routes) {
+    func setRoot(_ route: AppRoutes) {
         path = [route]
     }
 }

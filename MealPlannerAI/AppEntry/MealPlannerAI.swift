@@ -26,7 +26,7 @@ struct InitialContentView: View {
     
     var body: some View {
         SplashScreen()
-            .navigationDestination(for: Routes.self) { route in
+            .navigationDestination(for: AppRoutes.self) { route in
                 route.destination()
             }
     }

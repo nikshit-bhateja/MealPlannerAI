@@ -20,6 +20,9 @@ class AuthViewModel {
     var passwordTextField: String = ""
     var fullName: String = ""
     
+    ///Enums
+    var authenticationType: AuthenticateUserEnum = .login
+    
 }
 
 //MARK: Login
