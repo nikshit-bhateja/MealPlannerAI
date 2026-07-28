@@ -41,7 +41,7 @@ struct SplashScreen: View {
             Task {
                 // Delay for ~0.3 seconds before navigating
                 try? await Task.sleep(for: .milliseconds(300))
-                appRouter.push(.home)
+//                appRouter.push(.home)
             }
         }
     }

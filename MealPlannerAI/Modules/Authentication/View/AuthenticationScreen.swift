@@ -7,12 +7,17 @@
 
 import SwiftUI
 
+enum AuthenticateUserEnum {
+    case login
+    case signup
+}
+
 struct LoginScreen: View {
     @State private var viewModel = AuthViewModel()
     
     var body: some View {
         AppBackgroundView {
-            Text("Hello, World!")
+            Text(viewModel.authenticationType == .login ? "Hello Loggin!" : "Hello Signup!")
         }
     }
 }
